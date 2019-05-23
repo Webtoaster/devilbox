@@ -451,7 +451,7 @@ services:
       # ---- Format: ----
       # HOST-DIRECTORY : DOCKER-DIRECTORY
 
-      # Mount MongoDB Data directory
+      # Mount MongoDB Data directory   XX
       - devilbox-mongo-${MONGO_SERVER}:/data/db:rw${MOUNT_OPTIONS}
 
     depends_on:
